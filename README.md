@@ -9,7 +9,11 @@ projects.
 
 ## Mount Volumes for Persistence
 Using the Semantic Server for anything but trival applications, you'll 
-likely want to persist data between Docker restarts. 
+likely want to persist data between Docker restarts.
+### Data directory paths
+- Elasticsearch: /opt/elasticsearch/data
+- Blazegraph: /opt/triplestore/data
+- Fedora: /opt/repository/fcrepo4-data
 
 ### From the command-line
 
