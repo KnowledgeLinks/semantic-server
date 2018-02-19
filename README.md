@@ -6,14 +6,15 @@ projects.
 
 
 ## Quick start
+docker run -p 8080:8080 -p 9200:9200 -p 9999:9999 knowledgelinks/semantic-server
 
 ## Mount Volumes for Persistence
 Using the Semantic Server for anything but trival applications, you'll 
 likely want to persist data between Docker restarts.
 ### Data directory paths
-- Elasticsearch: /opt/elasticsearch/data
-- Blazegraph: /opt/triplestore/data
-- Fedora: /opt/repository/fcrepo4-data
+- *Elasticsearch:* /opt/elasticsearch/data
+- *Blazegraph:* /opt/triplestore/data
+- *Fedora:* /opt/repository/fcrepo4-data
 
 ### From the command-line
 
