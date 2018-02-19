@@ -20,6 +20,10 @@ likely want to persist data between Docker restarts.
 
 ### Use in docker-compose
 
+## Troubleshooting
+**Elasticseach not loading/dying:** Elasticsearch version 6 requires higher than default virtual memory size as described in this [Elastcisearch doc](https://www.elastic.co/guide/en/elasticsearch/reference/current/vm-max-map-count.html). To increase size on a linux machine enter:
+
+> `sudo sysctl -w vm.max_map_count=262144`
  
 [BLAZEGRAPH]: https://www.blazegraph.com/
 [ES]: https://www.elastic.co/guide/en/elasticsearch/
