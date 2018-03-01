@@ -29,7 +29,7 @@ likely want to persist data between Docker restarts.
 [ES]: https://www.elastic.co/guide/en/elasticsearch/
 [FEDORA]: http://www.fedorarepository.org/
 
-**Volume mapping Elasticsearh:** Possibly need to set permission on the host machine as described here in this [Elasticsearch Doc ](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_notes_for_production_use_and_defaults)
+**Volume mapping Elasticsearch:** Possibly need to set permission on the host machine as described here in this [Elasticsearch Doc ](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html#_notes_for_production_use_and_defaults)
 
 > mkdir esdatadir
 > chmod g+rwx esdatadir
