@@ -33,6 +33,8 @@ likely want to persist data between Docker restarts.
 
 >
 > `mkdir esdatadir`
+
 > `chmod g+rwx esdatadir`
+
 > `chgrp 1000 esdatadir`
 >
