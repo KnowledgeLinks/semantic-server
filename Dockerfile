@@ -17,7 +17,7 @@ RUN cd /opt/ && \
     rm elasticsearch.tar.gz && \
     mv elasticsearch* elasticsearch/
 RUN useradd -c 'Cataloger Admin' -m -d /home/cataloger -s /bin/bash cataloger && \
-    chown -R cataloger.cataloger /opt/elasticsearch 
+    chown -R cataloger /opt/elasticsearch 
 VOLUME $REPO/fcrepo4-data
 VOLUME $TRPSTR/data 
 #COPY fedora.jar $HOME
